@@ -4,10 +4,19 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=atillaoezdemir&label=Profile%20views&color=0e75b6&style=flat" alt="atillaoezdemir" /> </p>
 
+- 🔭 I’m currently working on **Study Pulse**
+
+- 🌱 I’m currently learning **Operating System and Fundamentals of Distributed Systems**
+
+- 💬 Ask me about **Java, Fitness and Coffee**
+
 - 📫 How to reach me **atillaeozdemir132@gmail.com**
+
+- ⚡ An unpopular opinion **Coding with AI will soon be more fun!**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+<a href="https://instagram.com/ati2easy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ati2easy" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>

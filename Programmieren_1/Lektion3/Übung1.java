@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	if(x % 7f != 0) System.out.println("Diese Zahl ist nicht mit 7 teilbar.");
 	else System.out.println("Diese Zahl ist mit 7 teilbar.");
 	
-	// - sayılarda ne oluyor?
+	// What if negative number is given?
 	
 	scanner.close();	
 }

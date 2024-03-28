@@ -1,6 +1,6 @@
 package Lektion3;
 import java.util.Scanner;
-public class Übung5 {
+2public class Übung5 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
@@ -13,5 +13,5 @@ public class Übung5 {
 		
 		scanner.close();
 	}
-	//Exception şeyi nedir? Anlamlısı nasıl olur? Anlamsız sonuçta güzel bir ifade?
+	//How to create a meaningful Exception?
 }

@@ -1,5 +1,7 @@
 package Lektion4;
+
 import java.util.Scanner;
+
 public class Übung3a {
 	public static void main(String[] args) {
 		
@@ -18,7 +20,7 @@ public class Übung3a {
 			System.out.println("Nein, das ist keine Primzahl!");
 		
 		scanner.close();
-		}
 	}
+}
 
 

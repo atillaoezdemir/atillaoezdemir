@@ -1,5 +1,7 @@
 package Lektion3;
+
 import java.util.Scanner;
+
 2public class Übung5 {
 	public static void main(String[] args) {
 		
@@ -13,5 +15,5 @@ import java.util.Scanner;
 		
 		scanner.close();
 	}
-	//How to create a meaningful Exception?
+	//Brainstorming: How to create a meaningful Exception?
 }

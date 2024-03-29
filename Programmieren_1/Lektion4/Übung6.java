@@ -1,4 +1,5 @@
 package Lektion4;
+
 public class Übung6 {
 	public static void main(String [] args) {
 		

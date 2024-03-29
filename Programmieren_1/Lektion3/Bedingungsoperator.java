@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Bedingungsoperator {
 	public static void main(String[] args) {
+		
 		// Variable = boolischer Ausdruck ? true Ausdruck : false Ausdruck;
 		
 		Scanner scanner = new Scanner(System.in);

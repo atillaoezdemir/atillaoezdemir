@@ -1,5 +1,7 @@
 package Lektion4;
+
 import java.util.Scanner;
+
 public class Übung5 {
 	public static void main(String[] args) {
 		
@@ -18,8 +20,10 @@ public class Übung5 {
 				}
 			}
 		}
-		else System.out.println("FEHLER! Zahl ist ungueltig!");
-	
+			
+		else 
+			System.out.println("FEHLER! Zahl ist ungueltig!");
+		
 		scanner.close();
 	}
 }

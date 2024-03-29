@@ -1,8 +1,10 @@
 package Lektion3;
+
 import java.util.Scanner;
 
 public class StringCompareUndEquals {
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Bitte geben Sie den ersten String ein:");
 		String ersterString = scanner.nextLine();

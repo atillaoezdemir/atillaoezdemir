@@ -1,5 +1,7 @@
 package Lektion4;
+
 import java.lang.Math;
+
 public class Übung4 {
 	public static void main(String[] args) {
 		
@@ -11,7 +13,7 @@ public class Übung4 {
 			System.out.println(fahrenheit + "\t \t" + Math.round(celcius));
 			fahrenheit++;
 		}
-		
 	}
 }
-//String.format("%.2f", celcius)
+
+//Method with -String.format("%.2f", celcius)- is also possible

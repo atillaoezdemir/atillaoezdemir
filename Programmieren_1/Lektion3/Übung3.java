@@ -1,7 +1,10 @@
 package Lektion3;
+
 import java.util.Scanner;
+
 public class Übung3 {
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Einzelzeichen: ");
 		char char1 = scanner.next().charAt(0);
@@ -12,5 +15,4 @@ public class Übung3 {
         
         scanner.close();
 	}
-
 }

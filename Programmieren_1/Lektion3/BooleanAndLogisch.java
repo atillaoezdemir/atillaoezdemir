@@ -8,22 +8,19 @@ public class BooleanAndLogisch {
 	System.out.println("Bitte geben Sie Ihr Alter ein: ");
 	int alter = scanner.nextInt();
 	System.out.print("Bitte geben Sie Ihre Größe ein; ");
-	int Groesse = scanner.nextInt();
+	int groesse = scanner.nextInt();
 	
 	boolean alterNichtOk = alter > 26 || alter < 17;
 	
-	if(alterNichtOk && Groesse < 165) {
+	if(alterNichtOk && groesse < 165) 
 		System.out.println("Eine Einstellung ist sehr unwahrscheinlich.");
-		
-	}
 	else if (alterNichtOk)
 		System.out.println("Eine Einstellung ist unwahrscheinlich.");
-	else if (Groesse < 165)
+	else if (groesse < 165)
 		System.out.println("Eine Einstellung ist unwahrscheinlich.");
 	else
 		System.out.println("Eine Einstellung ist möglich.");
 	
 	scanner.close();
-	
 	}
 }

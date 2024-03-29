@@ -1,19 +1,22 @@
 package Lektion4;
+
 import java.util.Scanner;
+
 public class WhileSchleife {
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Geben Sie ein Zahl ein: ");
-		int Zahl = scanner.nextInt();
-		int toplam = 0;
+		System.out.println("Geben Sie ein number ein: ");
+		int number = scanner.nextInt();
+		int total = 0;
 		
-		while (Zahl>0) {
-			toplam = toplam + Zahl % 10;
-			Zahl= Zahl / 10;
+		while (number>0) {
+			total = total + number % 10;
+			number= number / 10;
 		}
-		System.out.println("Toplam: " + toplam);
-		scanner.close();
 		
+		System.out.println("Total: " + total);
+		
+		scanner.close();	
 	}
-
 }

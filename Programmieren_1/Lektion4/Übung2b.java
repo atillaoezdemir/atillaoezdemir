@@ -1,5 +1,7 @@
 package Lektion4;
+
 import java.util.Scanner;
+
 public class Übung2b {
 	public static void main(String[] args){
 		

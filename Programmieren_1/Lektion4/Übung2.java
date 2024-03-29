@@ -1,5 +1,7 @@
 package Lektion4;
+
 import java.util.Scanner;
+
 public class Übung2 {
 	public static void main(String[] args) {
 		
@@ -12,6 +14,7 @@ public class Übung2 {
 			double Strecke = 0.5 * g * t2 * t2;
 			System.out.println(t2 + ". Sekunden Zurueckgelegte Strecke ist: " + Strecke + "m");			
 		}
+		
 		scanner.close();
 	}
 }

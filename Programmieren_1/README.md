@@ -5,7 +5,6 @@ Hello young Padawans,
 This repo was created to accompany you in the adventure of solving the exercises of the "Programmieren 1" course, which is a long and tiring journey. So, this is a haven where you can take shelter when you feel lost in the magical world of codes. 🚢
 
 What Will You Find? 🧐
-
 Here you will find solutions to exercises you may encounter within the scope of the course. But remember, what you see here are not absolute and immutable facts! Writing code is an art, and like every art, it has many different interpretations and techniques. The solutions here are just suggestions, in other words, they are a beacon that will guide you on this long road.
 
 Important note! 📝

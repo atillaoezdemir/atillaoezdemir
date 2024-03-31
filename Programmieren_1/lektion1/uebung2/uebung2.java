@@ -1,7 +1,9 @@
 package de.thws.lektion1.uebung2;
 
 public class uebung2 {
+
     public static void main(String[] args) {
+    
         System.out.println("x2 + px + q = 0");
 
         int p = 20;

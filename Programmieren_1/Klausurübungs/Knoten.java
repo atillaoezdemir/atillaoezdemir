@@ -1,6 +1,7 @@
 package Klausurübungs;
 
 public class Knoten {
+	
 	String wort;
 	String bedeutung;
 	Knoten right;
@@ -24,14 +25,14 @@ public class Knoten {
 
 		public void insert(Knoten temp, Knoten neu) {
 			if (temp.wort.compareTo(neu.wort) < 0) {
-				if (temp.left == null) {
+				if (temp.left == null)
 					temp.left = neu;
-				} else
+				else
 					insert(temp.left, neu);
 			} else {
-				if (temp.right == null) {
+				if (temp.right == null)
 					temp.right = neu;
-				} else
+				else
 					insert(temp.right, neu);
 			}
 		}
@@ -39,13 +40,12 @@ public class Knoten {
 		public String search(String search) {
 			Knoten temp = root;
 			while (temp != null) {
-				if (temp.wort.equals(search)) {
+				if (temp.wort.equals(search))
 					return temp.bedeutung;
-				} else if (wort.compareTo(temp.wort) < 0) {
+				else if (wort.compareTo(temp.wort) < 0)
 					temp = temp.left;
-				} else {
+				else
 					temp = temp.right;
-				}
 			}
 			return null;
 		}
@@ -58,19 +58,16 @@ public class Knoten {
 			if(root.wort == wort) {
 				
 			}
-			 if (root.wort.compareTo(wort) > 0) {
+			if (root.wort.compareTo(wort) > 0)
 		            root.left = delete(root.left, wort);
-		        } else if (root.compareTo(wort) < 0) {
+		        else if (root.compareTo(wort) < 0) {
 		            root.right = delete(root.right, wort);
-		        } else {
-		            if (root.left == null) {
+		        else {
+		            if (root.left == null)
 		                root.right;
-		            } else if (root.right == null) {
+		            else if (root.right == null)
 		                .left;
-		            }
 			}
-			
-			
 		}
 
 		public void print() {
@@ -78,11 +75,14 @@ public class Knoten {
 		}
 
 		private void inOrder(Knoten current) {
-			if(current.left != null) inOrder(current.left);
+			if(current.left != null) 
+				inOrder(current.left);
+			
 			System.out.println(current.wort);
-			if(current.right != null) inOrder(current.right);
+			
+			if(current.right != null) 
+				inOrder(current.right);
 		}
-
 	}
 
 	public static void main(String[] args) {

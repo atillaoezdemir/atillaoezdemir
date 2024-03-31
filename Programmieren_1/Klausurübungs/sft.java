@@ -11,9 +11,14 @@ public class sft {
 	
 	public String toString(String openclose) {
 		String situation;
-		if(openclose == "o") situation = "offen";
-		else if(openclose == "z") situation = "zu";
-		else situation = "-1";
+		
+		if(openclose == "o") 
+			situation = "offen";
+		else if(openclose == "z") 
+			situation = "zu";
+		else 
+			situation = "-1";
+		
 		return situation;
 	}
 	
@@ -32,5 +37,4 @@ public class sft {
 	public void setOpenclose(String openclose) {
 		this.openclose = openclose;
 	}
-
 }

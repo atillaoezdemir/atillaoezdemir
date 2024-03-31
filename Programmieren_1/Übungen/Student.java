@@ -1,6 +1,7 @@
 package Übungen;
 
 public class Student {
+	
 	String Name;
 	int MatrikelNummer;
 	private static int kapazität = 3;
@@ -18,14 +19,14 @@ public class Student {
 		if (anzahlStudenten < kapazität) {
 			studenten[anzahlStudenten] = student;
 			anzahlStudenten++;
-		} else {
+		} else 
 			System.out.println("Raum ist voll, kann keine weiteren Studenten hinzufügen");
-		}
 	}
 
 	public static void verlasseRaum(Student student) {
 		boolean imRaum = false;
 		int index = 0;
+		
 		for (int i = 0; i < anzahlStudenten; i++) {
 			if (studenten[i].equals(student)) {
 				imRaum = true;
@@ -35,20 +36,19 @@ public class Student {
 		}
 
 		if (imRaum) {
-			for (int i = index; i < anzahlStudenten - 1; i++) {
+			for (int i = index; i < anzahlStudenten - 1; i++)
 				studenten[i] = studenten[i + 1];
-			}
+				
 			studenten[anzahlStudenten - 1] = null;
 			anzahlStudenten--;
-		} else {
+		} else 
 			System.out.println("Student ist nicht im Raum");
-		}
 	}
 
 	public static void printStudenten() {
-		if (anzahlStudenten == 0) {
+		if (anzahlStudenten == 0)
 			System.out.println("Keine Studenten im Raum");
-		} else {
+		else {
 			for (int i = 0; i < anzahlStudenten; i++) {
 				System.out.println(
 						"Name: " + studenten[i].getName() + ", Matrikelnummer: " + studenten[i].getMatrikelNummer());
@@ -72,5 +72,4 @@ public class Student {
 	public void setMatrikelNummer(int matrikelNummer) {
 		MatrikelNummer = matrikelNummer;
 	}
-
 }

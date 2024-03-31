@@ -3,6 +3,7 @@ package Klausurübungs;
 import java.util.Scanner;
 
 public class Aufgabe5 {
+
 	private static char[] pass = new char[100];
 	private static String createdForm;
 	private static int nrOfSpecialChars;
@@ -19,23 +20,27 @@ public class Aufgabe5 {
 
 	public static boolean validate() {
 		int length = nrOfChar;
-		if (length < 8 || length > 15) {
+		if (length < 8 || length > 15)
 			return false;
-		}
-		if (nrOfSpecialChars == 0 || nrOfDigits == 0) {
+	
+		if (nrOfSpecialChars == 0 || nrOfDigits == 0)
 			return false;
-		}
+		
 		return true;
 	}
 
 	public static void main(String[] args) {
+		
 		createdForm = "Ich gehe morgen! mit meinen 11  Freund*innen zum Essen ! 1";
 		nrOfChar = 0;
 		boolean specialChar = false;
+		
 		for (int i = 0; i < createdForm.length(); i++) {
+		
 			if (createdForm.charAt(0) != ' ' && nrOfChar == 0) {
 				pass[0] = createdForm.charAt(0);
 				nrOfChar++;
+				
 			} else if (createdForm.charAt(i) == '!' || createdForm.charAt(i) == '?' || createdForm.charAt(i) == ':'
 					|| createdForm.charAt(i) == '%') {
 				pass[nrOfChar] = createdForm.charAt(i);
@@ -54,15 +59,18 @@ public class Aufgabe5 {
 				}
 			}
 		}
+		
 		System.out.print("Password:\t\t");
-		for (int i = 0; i < pass.length; i++) {
+		for (int i = 0; i < pass.length; i++)
 			System.out.print(pass[i]);
-		}
+			
 		System.out.println("\nCreatedFrom:\t\t" + createdForm);
+		
 		for (int i = 0; i < nrOfChar; i++) {
 			if (pass[i] >= '0' && pass[i] <= '9')
 				nrOfDigits++;
 		}
+
 		System.out.println("NrOfSpecialChars:\t" + nrOfSpecialChars);
 		System.out.println("NrOfDigits:\t\t" + nrOfDigits);
 
@@ -80,9 +88,9 @@ public class Aufgabe5 {
 
 		addCharToPassword(c, isSpecialChar, isDigit);
 		System.out.print("Your new password:  \t");
-		for (int i = 0; i < pass.length; i++) {
+		
+		for (int i = 0; i < pass.length; i++)
 			System.out.print(pass[i]);
-		}
 		
 		System.out.println("\nIs your password valid? " + validate());
 	}

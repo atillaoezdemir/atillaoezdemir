@@ -1,6 +1,7 @@
 package Klausurübungs;
 
 public class altKlausur_15_4 {
+
 	public class Bruch{
 		int zahler;
 		int nenner;
@@ -9,6 +10,7 @@ public class altKlausur_15_4 {
 			this.zahler = zahler;
 			this.nenner = nenner;
 		}
+		
 		public static Bruch multizipliereBrueche(Bruch ein, Bruch zwei) {
 			Bruch folge = null;
 			folge.zahler = ein.zahler * zwei.zahler;

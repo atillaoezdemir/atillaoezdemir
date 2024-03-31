@@ -1,6 +1,7 @@
 package Lektion6;
 
 public class Übung3 {
+	
 	public static void main(String[] args) {
 		int line = 5;
 		

@@ -1,6 +1,7 @@
 package Lektion9;
 
 public class Übung3Raum {
+	
 	private String name;
 	private int anzahl = (int) (Math.random() * 20);;
 	private int teilnehmer;
@@ -32,10 +33,11 @@ public class Übung3Raum {
 			System.out.println("Teilnehmer muss größer als 0!");
 			this.teilnehmer = 0;
 		}
-		if (kapazitat - anzahl >= teilnehmer) {
+		
+		if (kapazitat - anzahl >= teilnehmer)
 			System.out.println("Übung3Raum: " + this.getName() + " -> Belegt!");
-		} else {
+		
+		else
 			System.out.println("Übung3Raum: " + this.getName() + " -> Unbelegt!");
-		}
 	}
 }

@@ -8,9 +8,8 @@ public class Aufgabe1 {
 		for(int i = name.length-1; i > 0 ; i--) {
 			if (name[i] == '.') {
 				punkt++;
-				if(punkt > 1) {
+				if(punkt > 1)
 					name[i] = '_';
-				}
 			}
 		}
 		return name;

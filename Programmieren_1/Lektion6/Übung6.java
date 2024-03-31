@@ -3,6 +3,7 @@ package Lektion6;
 public class Übung6 {
 	
 	public static int jumpInMultipleJumps(int distance, int jump1, int jump2) {
+		
         	if (distance < 0)
             		return 0;
         
@@ -12,6 +13,7 @@ public class Übung6 {
         	int ways = 0;
         	ways += jumpInMultipleJumps(distance - jump1, jump1, jump2);
         	ways += jumpInMultipleJumps(distance - jump2, jump1, jump2);
+		
         	return ways;
     	}
 	

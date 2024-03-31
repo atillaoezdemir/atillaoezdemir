@@ -1,5 +1,7 @@
 package Lektion9;
+
 public class Übung1Main {
+
 	public static void main(String[] args) {
 		Übung1Auto Auto1 = new Übung1Auto("Mercedes" , "Schwarz" , 1000);
 		Übung1Auto Auto2 = new Übung1Auto("BMW" , "Rot" , 2000);

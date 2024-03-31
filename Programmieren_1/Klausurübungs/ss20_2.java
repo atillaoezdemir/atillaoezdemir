@@ -1,15 +1,18 @@
 package Klausurübungs;
 
 public class ss20_2 {
+	
 	public static int[] flatten(int[][] input) {
 		int zahlAnzahl = 0;
 		int outputNummer = 0;
-		for(int i = 0; i < input.length; i++) {
+	
+		for(int i = 0; i < input.length; i++)
 			zahlAnzahl += input[i].length;
-		}
+	
 		int output[] = new int[zahlAnzahl];
 			
 		int j;
+		
 		for(int i = 0; i < input.length; i++) {
 			j = 0;
 			for(; j < input[i].length; j++) {
@@ -17,6 +20,7 @@ public class ss20_2 {
 				outputNummer++;
 			}
 		}
+		
 		return output;
 	}
 	
@@ -25,10 +29,11 @@ public class ss20_2 {
 				   { 6, 5, 2 }, 
 				   { 8, 8, 1 },
 				   { 8, 8 } };
+		
 		int[] flattenedArray = flatten(matrix);
-		for (int i = 0; i < flattenedArray.length; i++) {
+		
+		for (int i = 0; i < flattenedArray.length; i++)
 		    System.out.print(flattenedArray[i] + " ");
-		}
 	}
 }
 

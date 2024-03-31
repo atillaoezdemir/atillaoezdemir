@@ -1,7 +1,11 @@
 package Lektion8;
+
 import Lektion9.Übung1Auto;
+
 public class Deneme {
+
 	public static void Main(String[] args) {
+	
 		System.out.println("1");
 		Übung1Auto Auto1 = new Übung1Auto("Mercedes" , "Schwarz" , 1000);
 		Übung1Auto Auto2 = new Übung1Auto("BMW" , "Rot" , 2000);

@@ -16,24 +16,26 @@ public class Kurs {
 	}
 
 	public void anmeldungKurs(Mitglied mitglied) {
-		if (currentTeilnehmer == maxTeilnehmer) {
+		
+		if (currentTeilnehmer == maxTeilnehmer)
 			System.out.println("Kurs ist voll, Anmeldung nicht möglich.");
-		}
+		
 		for (int i = 0; i < currentTeilnehmer; i++) {
-			if (mitglieder[i].getMitgliedsnummer() == mitglied.getMitgliedsnummer()) {
+			if (mitglieder[i].getMitgliedsnummer() == mitglied.getMitgliedsnummer())
 				System.out.println("Mitglied hat sich bereits für diesen Kurs angemeldet.");
-			}
 		}
+		
 		mitglieder[currentTeilnehmer++] = mitglied;
 		mitglied.setCurrentKurs(this);
 	}
 
 	public void abmeldungKurs(Mitglied mitglied) {
+		
 		for (int i = 0; i < currentTeilnehmer; i++) {
 			if (mitglieder[i].getMitgliedsnummer() == mitglied.getMitgliedsnummer()) {
-				for (int j = i; j < currentTeilnehmer - 1; j++) {
+				for (int j = i; j < currentTeilnehmer - 1; j++)
 					mitglieder[j] = mitglieder[j + 1];
-				}
+			
 				currentTeilnehmer--;
 				mitglied.setCurrentKurs(null);
 			}

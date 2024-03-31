@@ -1,6 +1,7 @@
 package Lektion6;
 
 public class Übung1 {
+	
 	public static int powerOfTen(int power) {
 		if (power == 1) return 10;
 		else return 10 * powerOfTen(power - 1);

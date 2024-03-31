@@ -1,5 +1,7 @@
 package Lektion8;
+
 import java.util.Scanner;
+
 public class Übung1 {
 	public static void main(String[] args) {
 		
@@ -12,6 +14,7 @@ public class Übung1 {
 			letters[i] = '_';
 			System.out.print("_ ");
 		}
+		
 		System.out.print("\n");
 		int chance = 15;
 		
@@ -29,12 +32,14 @@ public class Übung1 {
 					}
 				}
 			}
+			
 			if (isGameFinish) {
 				System.out.println("Glueckwunsch!");
 				System.out.println("Exiting Game");
 				scanner.close();
 				break;
 			}
+			
 			System.out.println("chance: "  + chance);
 
 			System.out.println("Input: ");
@@ -62,14 +67,16 @@ public class Übung1 {
 					scanner.close();
 					break;
 				}
-				}
-			System.out.print("Word: ");
-			for(int i = 0 ; i < letters.length ; i++) {
-				System.out.print(letters[i] + " ");
 			}
+			
+			System.out.print("Word: ");
+			
+			for(int i = 0 ; i < letters.length ; i++)
+				System.out.print(letters[i] + " ");
+			
 			System.out.println();
 			System.out.println("****************");	
 		}
 	}
-	}
+}
  

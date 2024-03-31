@@ -1,6 +1,7 @@
 public class Übun2Main {
 
   public static void main(String[] args) {
+    
     Pizza pizza1 = new Pizza("Pizza Margherita");
     pizza1.addDiameterPrice(30, 10);
     pizza1.addDiameterPrice(40, 12);
@@ -33,6 +34,7 @@ public class Übun2Main {
     for (Pizza pizza : pizzas) {
         DiameterPrice bestCombination = pizza.getBestValue();
         double value = bestCombination.getPrice() / bestCombination.getDiameter();
+      
         if (value < bestValue) {
             bestValue = value;
             bestValuePizza = pizza;

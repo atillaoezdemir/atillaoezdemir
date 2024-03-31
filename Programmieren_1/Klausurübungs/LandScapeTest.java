@@ -12,9 +12,8 @@ class Landscape {
 		
 		for (int i = 0; i < colorMatrix.length; i++) {
 			for (int j = 0; j < colorMatrix[i].length; j++) {
-				if (colorMatrix[i][j].equals(color)) {
+				if (colorMatrix[i][j].equals(color))
 					return new Point(i, j);
-				}
 			}
 		}
 		return null;
@@ -40,7 +39,9 @@ class Point {
 }
 
 public class LandScapeTest {
+
 	public static void main(String[] args) {
+	
 		String[][] colorMatrix = {{"Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "SkyBlue", "SkyBlue", "LightSkyBlue", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "PaleGreen"}, 
 				{"Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "SkyBlue", "SkyBlue", "Aquamarine", "LightSeaGreen", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine"}, 
 				{"MediumAquaMarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "SkyBlue", "LightSkyBlue", "MediumTurquoise", "Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine"}, 
@@ -93,12 +94,12 @@ public class LandScapeTest {
 				{"Khaki", "Khaki", "Khaki", "Khaki", "Khaki", "PaleGreen", "LightGreen", "Khaki", "BurlyWood", "DarkSalmon", "BurlyWood", "BurlyWood", "BurlyWood", "BurlyWood", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightPink", "LightPink", "LightPink", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon"}, 
 				{"Khaki", "Khaki", "Khaki", "Khaki", "Khaki", "PaleGreen", "LightGreen", "DarkKhaki", "BurlyWood", "DarkSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "DarkSalmon", "LightSalmon", "IndianRed", "LightPink", "LightPink", "LightPink", "LightPink", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon"}, 
 				{"Khaki", "Khaki", "Khaki", "Khaki", "Khaki", "PaleGreen", "OliveDrab", "YellowGreen", "BurlyWood", "DarkSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightCoral", "LightSalmon", "LightPink", "LightPink", "LightPink", "LightPink", "LightSalmon", "LightSalmon", "LightSalmon", "LightCoral"}};
+		
 		Landscape landscape = new Landscape(colorMatrix);
 		Point point = landscape.findColor("IndianRed");
-		if (point != null) {
+		if (point != null)
 			System.out.println("IndianRed found at column: " + point.getX() + ", row: " + point.getY());
-		} else {
+		else
 			System.out.println("Color not found.");
-		}
 	}
 }

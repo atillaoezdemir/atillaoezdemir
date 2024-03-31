@@ -1,6 +1,7 @@
 package de.thws.klausurAufgaben.Mietwagen;
 
 public class Kleintransporter extends Fahrzeug {
+    
     public Kleintransporter() {
         super();
     }

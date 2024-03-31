@@ -1,6 +1,7 @@
 package de.thws.klausurAufgaben.Mietwagen;
 
 public class Fahrrad extends Fahrzeug {
+    
     public Fahrrad() {
         super();
     }

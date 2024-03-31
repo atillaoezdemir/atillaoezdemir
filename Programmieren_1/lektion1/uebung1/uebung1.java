@@ -1,7 +1,9 @@
 package de.thws.lektion1.uebung1;
 
 public class uebung1 {
+    
     public static void main(String[] args) {
+    
         int a = 3;
         System.out.println("Wenn r=3 ist:");
         double kreisflaeche = (Math.PI * (a * a));

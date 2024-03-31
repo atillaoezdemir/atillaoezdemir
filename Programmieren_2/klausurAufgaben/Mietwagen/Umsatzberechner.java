@@ -4,6 +4,7 @@ import static de.thws.klausurAufgaben.Mietwagen.Fahrzeug.fahrtenbuch;
 import static de.thws.klausurAufgaben.Mietwagen.Fahrzeug.fahrzeuge;
 
 public class Umsatzberechner {
+    
     public double gesamtUmsatz() {
         double wert = 0;
 

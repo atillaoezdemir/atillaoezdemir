@@ -3,6 +3,7 @@ package de.thws.lektion1.uebung3;
 import java.time.LocalTime;
 
 public class uebung3 {
+    
     public static void main(String[] args) {
 
         LocalTime now = LocalTime.now();
@@ -17,6 +18,5 @@ public class uebung3 {
         double totalsecond = 24 * 60 * 60;
         System.out.println("Verbleibenden Sekunden: " + (totalsecond - pastsecond));
         System.out.println("Vergangene Zeit von heute: %" + (pastsecond / totalsecond * 100));
-
     }
 }

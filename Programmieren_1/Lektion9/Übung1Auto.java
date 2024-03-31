@@ -1,4 +1,5 @@
 package Lektion9;
+
 public class Übung1Auto {
 	private String Marke;
 	private String Farbe;
@@ -32,12 +33,11 @@ public class Übung1Auto {
 	}
 
 	public void setHubraum(int ccm) {
-		if (ccm > 0) {
-		this.Hubraum = ccm;
-		}
-		else {
+		if (ccm > 0)
+			this.Hubraum = ccm;
+		
+		else 
 			this.Hubraum = 1600;
-		}
 	}
 	
 	public int getHubraum() {

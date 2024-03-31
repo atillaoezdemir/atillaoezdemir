@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Übung5 {
 
-	private static int potenz(int basis, int exponenten) {
-		if (exponenten == 0)
+	private static int potenz(int basis, int exponent) {
+		if (exponent == 0)
 			return 1;
-		return basis * potenz((basis), (exponenten - 1));
+		return basis * potenz((basis), (exponent - 1));
 	}
 
 	public static void main(String[] args) {

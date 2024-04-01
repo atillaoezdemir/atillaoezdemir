@@ -6,7 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 public class Methode {
+    
     public static Map<String, String> liesKonfigurationsdatei() throws IOException {
+    
         Map<String, String> konfigurationMap = new HashMap<>();
 
         List<String> zeilen = liesKonfigurationsdateiIntern();
@@ -17,6 +19,7 @@ public class Methode {
             String value = zeile.substring(gleichheitszeichenIndex + 1);
             konfigurationMap.put(key, value);
         }
+        
         return konfigurationMap;
     }
 
@@ -26,6 +29,7 @@ public class Methode {
     }
 
     public static void main(String[] args) {
+        
         String nimet = "abc=def";
         System.out.println(nimet.substring(0, nimet.indexOf('=')));
         System.out.println(nimet.substring(nimet.indexOf('=') + 1));

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class ImmutableArrayList<E> extends ArrayList<E> {
+    
     public ImmutableArrayList(Collection<? extends E> c) {
         super(c);
     }

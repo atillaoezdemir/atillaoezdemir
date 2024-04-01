@@ -1,6 +1,6 @@
 package de.thws.klausurAufgaben.SS2017.Nummer3;
 /*
-     a) şıkkının cevabı olarak kullanım bu şekilde:
+     The answer to part a) is as follows:
      Customer customer = new Customer("John Doe");
 
      ShoppingCart shoppingCart = new ShoppingCart.Builder(customer)

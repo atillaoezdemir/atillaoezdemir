@@ -6,6 +6,7 @@ import static de.thws.klausurAufgaben.SS2017.Nummer1.IBAN.ibanCheck;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class IbanCheckTest {
+    
     @Test
     public void testIbanCheckWithValidIban() {
         try {

@@ -1,6 +1,7 @@
 package de.thws.klausurAufgaben.SS2017.Nummer2;
 
 public final class Wort implements Comparable<Wort> {
+    
     int laenge;
     private final String wort;
     private String wortTyp;

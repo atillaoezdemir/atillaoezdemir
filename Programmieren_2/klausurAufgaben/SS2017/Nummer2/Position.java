@@ -1,4 +1,5 @@
 package de.thws.klausurAufgaben.SS2017.Nummer2;
+
 public final class Position implements Comparable<Position> {
     protected int zeilennummer;
     protected int spaltennummer;
@@ -9,6 +10,7 @@ public final class Position implements Comparable<Position> {
     }
 
     public int compareTo(Position other) {
+
         // Vergleichskriterien: erst nach Zeilennummer, dann nach Spaltennummer
         if (zeilennummer != other.zeilennummer) {
             return Integer.compare(zeilennummer, other.zeilennummer);

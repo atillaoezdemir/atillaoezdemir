@@ -1,7 +1,10 @@
 package de.thws.lektion14;
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+
 public class SignTest {
+
     @Test
      public void testNull() {
         double radius = 0;
@@ -29,7 +32,7 @@ public class SignTest {
     @Test
     public void testMinus() {
         double radius = -1;
-        try{
+        try {
             KugelVolumen.berechneKugelvolumen(radius);
             fail("RuntimeException erwartet!");
         } catch (RuntimeException e){

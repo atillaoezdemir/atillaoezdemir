@@ -1,9 +1,14 @@
 package de.thws.lektion14.person;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import de.thws.lektion14.person.Person;
 import org.junit.jupiter.api.Test;
+
 public class PersonTest {
+
+    // Code duplication can be greatly reduced with BeforeEach or BeforeAll
+
     @Test
     public void vornameTest() {
         String strasse = "Beispielstraße";
@@ -20,6 +25,7 @@ public class PersonTest {
             assertEquals("Vorname muss mit einem Großbuchstaben beginnen!", errorMessage);
         }
     }
+    
     @Test
     public void strasseTest() {
         String strasse = "beispielstraße";
@@ -45,6 +51,7 @@ public class PersonTest {
         String ort = "beispielort";
         String vorname = "Beispiel";
         String nachname = "Beispiel";
+        
         try {
             new Person(vorname, nachname, strasse, hausnummer, postleitzahl, ort);
             fail("Runtime Exception erwartet!");
@@ -62,6 +69,7 @@ public class PersonTest {
         String ort = "Beispielort";
         String vorname = "Beispiel";
         String nachname = "Beispiel";
+        
         try {
             new Person(vorname, nachname, strasse, hausnummer, postleitzahl, ort);
             fail("Runtime Exception erwartet!");

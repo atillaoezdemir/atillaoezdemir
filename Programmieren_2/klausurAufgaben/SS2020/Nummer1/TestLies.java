@@ -1,7 +1,6 @@
 package de.thws.klausurAufgaben.SS2020.Nummer1;
 
 import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
 import java.util.Map;
 
@@ -9,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
 class TestLies {
+
     @Test
     void testLiesKonfigurationsdatei() {
         try {

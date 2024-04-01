@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.net.URL;
 
 public class SS2022 {
+    
     // a) Methode zum Speichern eines Byte-Arrays in einer Datei
     private static void saveByteArrayToFile(byte[] byteArray, String fileName) {
         try (FileOutputStream fos = new FileOutputStream(fileName)) {

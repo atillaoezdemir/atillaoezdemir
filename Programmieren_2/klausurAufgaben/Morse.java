@@ -3,6 +3,7 @@ package de.thws.klausurAufgaben;
 import java.util.HashMap;
 
 public class Morse {
+
     public static String charToMorseCode(char c) {
         String morseCode = switch (c) {
             case 'A' -> ".-";
@@ -39,18 +40,21 @@ public class Morse {
     public static HashMap<String, String> getMorsCodeMap() {
         HashMap<String, String> morseCodeMap = new HashMap<>();
         char[] validChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
-        for (char c : validChars) {
+        
+        for (char c : validChars)
             morseCodeMap.put(String.valueOf(c), charToMorseCode(c));
-        }
+        
         return morseCodeMap;
     }
 
     public static String zeichenketteToMorse(String s) throws RuntimeException {
         String folge = "";
+       
         for (char c : s.toCharArray()) {
             folge += String.valueOf(charToMorseCode(c));
             folge += " ";
         }
+        
         return folge;
     }
 }

@@ -1,6 +1,7 @@
 package de.thws.klausurAufgaben;
 
 public class QuadraticFunction {
+    
     private final double a;
     private final double b;
     private final double c;

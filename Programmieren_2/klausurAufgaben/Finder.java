@@ -34,9 +34,9 @@ public class Finder {
                 int lineNumber = 1;
 
                 while ((line = reader.readLine()) != null) {
-                    if (line.contains(searchString)) {
+                    if (line.contains(searchString))
                         System.out.println("Treffer in Datei: " + filename + ", Zeile: " + lineNumber);
-                    }
+
                     lineNumber++;
                 }
             } catch (IOException e) {

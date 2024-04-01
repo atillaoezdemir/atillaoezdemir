@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Finder {
+    
     public static void main(String[] args) {
         Finder finder = new Finder();
         BufferedReader br = finder.getSystemInAsBufferedReader();

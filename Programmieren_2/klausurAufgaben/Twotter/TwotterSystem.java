@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class TwotterSystem {
+    
     HashMap<User, List<Message>> userMesgs;
 
     public TwotterSystem() {

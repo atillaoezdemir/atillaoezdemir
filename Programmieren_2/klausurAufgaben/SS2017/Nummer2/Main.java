@@ -8,6 +8,7 @@ import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
+        
         class Raum {
             final Collection<Student> studenten = new ArrayList<>();
 

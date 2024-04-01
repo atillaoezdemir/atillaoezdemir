@@ -24,9 +24,8 @@ public class SS2022 {
             int bytesRead;
             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
-            while ((bytesRead = inputStream.read(buffer)) != -1) {
+            while ((bytesRead = inputStream.read(buffer)) != -1)
                 byteArrayOutputStream.write(buffer, 0, bytesRead);
-            }
 
             return byteArrayOutputStream.toByteArray();
         } catch (IOException e) {

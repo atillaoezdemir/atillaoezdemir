@@ -1,8 +1,5 @@
 package de.thws.lektion16aa.muenzautomat;
 
-/**
- * enum Coin erweitert um einen Konstruktor und um ein Attribut
- */
 public enum Coin {
 
   CENT_1(1), CENT_2(2), CENT_5(5), CENT_10(10), 
@@ -10,8 +7,7 @@ public enum Coin {
 
   int value;
 
-  Coin(int value)
-  {
+  Coin(int value) {
     this.value = value;
   }
 }

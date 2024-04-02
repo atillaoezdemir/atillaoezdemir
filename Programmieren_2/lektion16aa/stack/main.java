@@ -3,6 +3,7 @@ package de.thws.lektion16aa.stack;
 import java.util.ArrayList;
 
 public class main {
+
     public static void main(String[] args){
         /*
         stackVererbung s = new stackVererbung();
@@ -22,8 +23,5 @@ public class main {
         System.out.println(s.pop());
         System.out.println(s.pop());
         */
-
-
-
     }
 }

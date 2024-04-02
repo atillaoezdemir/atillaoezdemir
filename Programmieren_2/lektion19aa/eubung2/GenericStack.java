@@ -8,9 +8,12 @@ public class GenericStack<E> extends ArrayList<E> {
     }
 
     public E pop() {
-        if (size() > 0) return remove(size() - 1);
-        else throw new RuntimeException("Stack is empty!");
+        if (size() > 0) 
+            return remove(size() - 1);
+        else 
+            throw new RuntimeException("Stack is empty!");
     }
+    
     public static void main(String[] args) {
         GenericStack<Character> c = new GenericStack<>();
         c.push('a');

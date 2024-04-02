@@ -1,7 +1,9 @@
 package de.thws.lektion22aa.uebung1;
 
 public class nterface implements Runnable {
+
     private String msg;
+    
     public nterface(String msg) {
         this.msg = msg;
     }

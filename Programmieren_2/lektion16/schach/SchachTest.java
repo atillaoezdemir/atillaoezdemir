@@ -1,8 +1,9 @@
 package de.thws.lektion16.schach;
-import static org.junit.jupiter.api.Assertions.*;
 
+import static org.junit.jupiter.api.Assertions.*;
 import de.thws.lektion14.Strecke;
 import org.junit.jupiter.api.Test;
+
 public class SchachTest {
     TurmImpl t = new TurmImpl(4, 4);
     LaeuferImpl l = new LaeuferImpl(4, 4);
@@ -15,6 +16,7 @@ public class SchachTest {
         assertTrue(testTurm.brett[3][7]);
         assertTrue(testTurm.brett[7][3]);
     }
+
     @Test
     public void korrektenFelderLaeufer () {
         Brett testLaufer = l.gibErlaubteFelder();
@@ -22,6 +24,7 @@ public class SchachTest {
         assertTrue(testLaufer.brett[7][7]);
         assertTrue(testLaufer.brett[6][0]);
         }
+    
     @Test
     public void korrektenFelderDame () {
         Brett testDame = d.gibErlaubteFelder();
@@ -29,8 +32,9 @@ public class SchachTest {
         assertTrue(testDame.brett[0][6]);
         assertTrue(testDame.brett[3][0]);
         }
+    
     @Test
-    public void falscheImplementierung(){
+    public void falscheImplementierung() {
         try {
             Dame testDame = new Dame(0, 4);
             fail("Runtime Exception erwartet!");
@@ -46,4 +50,4 @@ public class SchachTest {
             assertEquals("Es muss 1 <= y <= 8 sein!", errorMessage);
         }
     }
-    }
+}

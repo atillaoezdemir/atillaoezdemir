@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class server {
+    
     public server() {
     }
 
@@ -23,7 +24,9 @@ public class server {
     }
 
     static class Worker extends Thread {
+    
         private final Socket socket;
+        
         Worker(Socket socket) {
             this.socket = socket;
         }
@@ -49,7 +52,8 @@ public class server {
                 throw new RuntimeException(e);
             }
         }
-            private static boolean isPrime(int number) {
+        
+        private static boolean isPrime(int number) {
             if (number <= 1)
                 return false;
 
@@ -63,6 +67,7 @@ public class server {
 
     public static void main(String[] args) {
         server myServer = new server();
+
         try {
             myServer.start();
         } catch (IOException e) {

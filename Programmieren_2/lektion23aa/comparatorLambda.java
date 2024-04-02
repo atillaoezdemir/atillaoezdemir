@@ -1,11 +1,15 @@
 package de.thws.lektion23aa;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
 public class comparatorLambda {
+
     public static void main(String[] args) {
         List<String> strings = new ArrayList<>();
+    
         strings.add("Bannannaaa");
         strings.add("Apple");
         strings.add("Orange");

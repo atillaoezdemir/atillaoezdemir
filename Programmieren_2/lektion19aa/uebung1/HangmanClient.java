@@ -1,10 +1,13 @@
 package de.thws.lektion19aa.uebung1;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.Scanner;
+
 public class HangmanClient {
+
     public static void main(String[] args) {
         try {
             Socket socket = new Socket("localhost", 12345);
@@ -20,11 +23,12 @@ public class HangmanClient {
                 System.out.println("Current status: " + new String(currentState.getGuessedWord()));
 
                 if (currentState.isGameFinished()) {
-                    if (currentState.isAnswerCorrect()) {
+                    if (currentState.isAnswerCorrect())
                         System.out.println("You win!");
-                    } else {
+                    
+                    else
                         System.out.println("You lose");
-                    }
+                    
                     break;
                 } else {
                     System.out.print("Enter a letter: ");

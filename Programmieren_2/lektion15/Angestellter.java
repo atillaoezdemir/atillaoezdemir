@@ -1,6 +1,9 @@
 package de.thws.lektion15;
+
 import java.util.Date;
+
 public class Angestellter {
+
     private final String Nachname;
     private final String Vorname;
     private final String Identifikator;
@@ -8,10 +11,6 @@ public class Angestellter {
     protected double Gehaltsfaktor = 1;
     private final String GeburtsDatum;
     private double Gehalt = Grundgehalt * Gehaltsfaktor;
-
-    {
-        Gehalt = Gehaltsfaktor * Grundgehalt;
-    }
 
     Angestellter(String nachname, String Vorname, String Identifikator, String GeburtsDatum) {
         this.Nachname = nachname;

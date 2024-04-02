@@ -5,6 +5,7 @@ import java.util.Comparator;
 import java.util.TreeSet;
 
 public class WordComparator implements Comparator<String> {
+
     static String[] alleWoerter = {"Barriere", "Buch", "Bibel", "Beige", "Bienenschwarm", "Bein", "Beil", "Christ", "Christian", "Carmen"};
 
     public int compare(String word1, String word2) {

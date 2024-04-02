@@ -1,7 +1,9 @@
 package de.thws.lektion19aa.uebung1;
 
 import java.io.Serializable;
+
 public class HangmanState implements Serializable {
+
     private char[] guessedWord;
     private boolean gameFinished;
     private boolean answer;

@@ -2,6 +2,7 @@ package de.thws.lektion16.cyborg;
 import java.util.Random;
 
 public class Cyborg implements Reaktionsverhalten {
+    
     private Reaktionsverhalten mensch;
     private Reaktionsverhalten roboter;
 
@@ -11,16 +12,17 @@ public class Cyborg implements Reaktionsverhalten {
     }
 
     public Entscheidung entscheide(Gefahrensituation situation) {
-
-        if (mensch.entscheide(situation).equals(roboter.entscheide(situation))) {
+        if (mensch.entscheide(situation).equals(roboter.entscheide(situation)))
             return mensch.entscheide(situation);
-        } else {
+        
+        else {
             Random random = new Random();
-            if (random.nextInt(100) < 25) {
+            
+            if (random.nextInt(100) < 25)
                 return Entscheidung.UNENTSCHIEDEN;
-            } else {
-                    return random.nextBoolean() ? mensch.entscheide(situation) : roboter.entscheide(situation);
-            }
+            
+            else
+                return random.nextBoolean() ? mensch.entscheide(situation) : roboter.entscheide(situation);
         }
     }
 }

@@ -8,6 +8,7 @@ import java.net.Socket;
 import java.util.Random;
 
 public class HangmanServer {
+    
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(12345);
@@ -38,28 +39,29 @@ public class HangmanServer {
 
                 int bytesRead = inputStream.read(buffer);
                 String letter = new String(buffer, 0, bytesRead);
-                //inputStream.read fonksiyonu hem buffer dizisine okuduğu veriyi
-                //yazıyor hem de return değeri olarak kaç int veri okuduğunu gönderiyor.
 
                 if (Character.isLetter(letter.charAt(0)) && letter.length() == 1) {
                     for (int i = 0; i < selectedWord.length(); i++) {
-                        if (selectedWord.charAt(i) == letter.charAt(0)) {
+                        if (selectedWord.charAt(i) == letter.charAt(0))
                             guessedWord[i] = letter.charAt(0);
-                        }
                     }
+                    
                     if (new String(guessedWord).equals(selectedWord)) {
                         outputStream.write("WIN".getBytes());
                         outputStream.flush();
                         break;
                     }
+                    
                 } else {
                     wrongGuesses++;
+                    
                     if (wrongGuesses == MAX_WRONG_GUESSES) {
                         outputStream.write("LOSE".getBytes());
                         outputStream.flush();
                         break;
                     }
                 }
+                
                 outputStream.write("OK".getBytes());
                 outputStream.flush();
             }

@@ -1,6 +1,7 @@
 package de.thws.lektion16.cyborg;
 
 public class Roboter implements Reaktionsverhalten {
+    
     public Entscheidung entscheide(Gefahrensituation situation) {
         return switch (situation) {
             case GEFAHR_LINKS -> Entscheidung.RECHTS;

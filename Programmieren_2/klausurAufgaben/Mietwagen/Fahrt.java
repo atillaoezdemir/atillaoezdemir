@@ -1,6 +1,7 @@
 package de.thws.klausurAufgaben.Mietwagen;
 
 public class Fahrt {
+    
     public int km;
     public int min;
 

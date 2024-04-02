@@ -1,6 +1,7 @@
 package de.thws.lektion21aa.builder;
 
 public class yemek {
+    
     double portionsgroesse;
     double anzahlPortionen;
     double eiweiss;

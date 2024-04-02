@@ -1,6 +1,7 @@
 package de.thws.lektion21aa.binaerbaum;
 
 public class binaerbaum<T> {
+    
     private node<T> root;
 
     public static void main(String[] args) {
@@ -18,14 +19,14 @@ public class binaerbaum<T> {
     }
 
     private node<T> addRecursive(node<T> current, T data) {
-        if (current == null) {
+        if (current == null)
             return new node<>(data);
-        }
-        if (data.hashCode() < current.data.hashCode()) {
+    
+        if (data.hashCode() < current.data.hashCode())
             current.left = addRecursive(current.left, data);
-        } else if (data.hashCode() > current.data.hashCode()) {
+        else if (data.hashCode() > current.data.hashCode())
             current.right = addRecursive(current.right, data);
-        }
+        
         return current;
     }
 
@@ -42,6 +43,7 @@ public class binaerbaum<T> {
     }
 
     private static class node<T> {
+        
         private final T data;
         private node<T> left;
         private node<T> right;

@@ -12,7 +12,7 @@ public class personTest {
     @Test
     public void kleinVornameTest(){
         try {
-            person.adresse adresse = new person.adresse("Landsteiner", "3", 97072, "Würzburg");
+            person.adresse adresse = new person.adresse("Landsteiner", "31", 97074, "Würzburg");
             p = new person("atilla", "Oezdemir", adresse);
             fail("RuntimeException erwartet!");
         }catch (RuntimeException e){
@@ -23,7 +23,7 @@ public class personTest {
     @Test
     public void kleinStrasseTest(){
         try{
-            person.adresse adresse = new person.adresse("landsteiner", "3", 97072, "Würzburg");
+            person.adresse adresse = new person.adresse("landsteiner", "31", 97074, "Würzburg");
             p = new person("Atilla", "Oezdemir", adresse);
             fail("RuntimeException erwartet!");
         }catch(RuntimeException e){
@@ -34,7 +34,7 @@ public class personTest {
     @Test
     public void falschHausnummer(){
         try{
-            person.adresse adresse = new person.adresse("landsteiner", "a3", 97072, "Würzburg");
+            person.adresse adresse = new person.adresse("landsteiner", "a31", 97074, "Würzburg");
             p = new person("Atilla", "Oezdemir", adresse);
             fail("RuntimeException erwartet!");
         }catch(RuntimeException e){

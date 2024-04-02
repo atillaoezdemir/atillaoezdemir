@@ -8,7 +8,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
 public class punktTest {
+    
     private static Punkt p;
+    
     @BeforeEach
     public void prepareTest(){
         p = new Punkt(); // p objesini burada oluşturuyoruz
@@ -16,7 +18,6 @@ public class punktTest {
 
     @Test
     public void negativeX(){
-
         try{
             p.verschiebePunkt(-1, 1);
             fail("RuntimeException erwartet!");

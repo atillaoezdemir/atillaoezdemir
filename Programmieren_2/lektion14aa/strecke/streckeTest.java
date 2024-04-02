@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class streckeTest {
+    
     @Test
     public void punkten(){
         strecke s = new strecke(3,1);

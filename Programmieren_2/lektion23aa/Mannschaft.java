@@ -5,16 +5,15 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Mannschaft implements Comparable<Mannschaft>
-{
+public class Mannschaft implements Comparable<Mannschaft> {
+    
     String name;
     int anzahlGespielteSpiele;
     int tore;
     int gegentore;
     int punkte;
 
-    public Mannschaft(String name, int anzahlGespielteSpiele, int tore, int gegentore, int punkte)
-    {
+    public Mannschaft(String name, int anzahlGespielteSpiele, int tore, int gegentore, int punkte) {
         this.name = name;
         this.anzahlGespielteSpiele = anzahlGespielteSpiele;
         this.tore = tore;
@@ -23,20 +22,24 @@ public class Mannschaft implements Comparable<Mannschaft>
     }
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return String.format("%14s %3s %7s %3s", name, anzahlGespielteSpiele, tore + ":" + gegentore, punkte);
     }
 
     @Override
-    public int compareTo(Mannschaft m)
-    {
-        if (this.punkte < m.punkte) return 1;
-        else if (this.punkte > m.punkte) return -1;
-        else
-        {
-            if (this.tore - this.gegentore < m.tore - m.gegentore) return 1;
-            else if (this.tore - this.gegentore > m.tore - m.gegentore) return -1;
+    public int compareTo(Mannschaft m) {
+        if (this.punkte < m.punkte) 
+            return 1;
+        
+        else if (this.punkte > m.punkte) 
+            return -1;
+        
+        else {
+            if (this.tore - this.gegentore < m.tore - m.gegentore) 
+                return 1;
+            
+            else if (this.tore - this.gegentore > m.tore - m.gegentore) 
+                return -1;
         }
         return this.name.compareTo(m.name);
     }
@@ -44,6 +47,7 @@ public class Mannschaft implements Comparable<Mannschaft>
     public static List<Mannschaft> createTabelle()
     {
         List<Mannschaft> tabelle = new ArrayList<Mannschaft>(18);
+        
         tabelle.add(new Mannschaft("Bay.München", 32, 75, 15, 82));
         tabelle.add(new Mannschaft("Bor.Dortmund", 32, 52, 36, 77));
         tabelle.add(new Mannschaft("B.Leverkusen", 32, 80, 31, 57));
@@ -83,9 +87,8 @@ public class Mannschaft implements Comparable<Mannschaft>
         List<Mannschaft> bundesligaTabelle = Mannschaft.createTabelle();
 
         // Ausgabe der Tabelle
-        for (Mannschaft mannschaft : bundesligaTabelle) {
+        for (Mannschaft mannschaft : bundesligaTabelle)
             System.out.println(mannschaft);
-        }
 
         // Mannschaften mit mehr als 50 Punkten ausgeben
         bundesligaTabelle.stream()

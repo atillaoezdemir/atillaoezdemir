@@ -5,6 +5,7 @@ import java.net.URL;
 import java.util.Optional;
 
 public class Browser {
+    
     public Optional<URL> back() {
         try {
             return Math.random() < 0.5 ? Optional.of(new URL("http://google.de")) : null;
@@ -13,6 +14,7 @@ public class Browser {
             return null;
         }
     }
+    
     public String retrieveSite(URL url) {
         return url.toString();
     }
@@ -27,5 +29,4 @@ public class Browser {
             // You can use the 'url' variable inside these braces for further operations
         });
     }
-
 }

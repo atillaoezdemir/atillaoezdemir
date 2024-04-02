@@ -1,6 +1,7 @@
 package de.thws.lektion15aa.dritte;
 
 public class main {
+    
     public static void main(String[] args){
         textQuestion tq = new textQuestion("Which city is the capital of Turkey?", "Ankara");
         tq.askQuestion();

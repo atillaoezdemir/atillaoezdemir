@@ -1,5 +1,7 @@
 package de.thws.lektion22aa.uebung1;
+
 public class anonym {
+
     public static void main(String[] args) {
         Thread yang = new Thread(new Runnable() {
             public void run() {

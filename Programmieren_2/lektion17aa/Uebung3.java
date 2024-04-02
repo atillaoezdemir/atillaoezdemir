@@ -4,12 +4,12 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Uebung3 {
-    public static void ungepuffert(String path){
+
+    public static void ungepuffert(String path) {
         try(InputStream fis = new FileInputStream(path);
-            OutputStream fos = new FileOutputStream("ungepuffert.mp3"))
-        {
+            OutputStream fos = new FileOutputStream("ungepuffert.mp3")) {
             int b;
-            do{
+            do {
                 b = fis.read();
                 if(b != -1)
                     fos.write(b);
@@ -26,8 +26,7 @@ public class Uebung3 {
         try(FileInputStream fis = new FileInputStream(path);
             BufferedInputStream bis = new BufferedInputStream(fis);
             FileOutputStream fos = new FileOutputStream("gepuffert.mp3");
-            BufferedOutputStream bos = new BufferedOutputStream(fos))
-        {
+            BufferedOutputStream bos = new BufferedOutputStream(fos)) {
             int b;
             do {
                 b = bis.read();
@@ -44,8 +43,7 @@ public class Uebung3 {
 
     public static void byteUngepuffert(String path) {
         try(FileInputStream fis = new FileInputStream(path);
-            FileOutputStream fos = new FileOutputStream("byteUngepuffert.mp3");)
-        {
+            FileOutputStream fos = new FileOutputStream("byteUngepuffert.mp3");) {
             byte[] b = new byte[1024];
             int n;
             do{
@@ -66,23 +64,23 @@ public class Uebung3 {
         String path = scanner.nextLine();
 
         long startUngepuffert = System.currentTimeMillis();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             ungepuffert(path);
-        }
+        
         long endUngepuffert = System.currentTimeMillis();
         long duration = endUngepuffert - startUngepuffert;
 
         long startGepuffert = System.currentTimeMillis();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             gepuffert(path);
-        }
+        
         long endGepuffert = System.currentTimeMillis();
         long duration2 = endGepuffert - startGepuffert;
 
         long startByte = System.currentTimeMillis();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             byteUngepuffert(path);
-        }
+        
         long endByte = System.currentTimeMillis();
         long duration3 = endByte - startByte;
 

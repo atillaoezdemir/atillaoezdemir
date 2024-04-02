@@ -1,12 +1,12 @@
 package de.thws.lektion15;
+
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class AngestellterTest {
+    
     @Test
     public void abteilungsleiterTest(){
         Abteilungsleiter abteilungsleiter = new Abteilungsleiter("Mustermann" , "Max" , "123", "11.11.2011");

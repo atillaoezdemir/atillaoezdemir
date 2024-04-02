@@ -1,6 +1,7 @@
 package de.thws.lektion17;
 
 public class Uebung1 {
+    
     public static void main(String[] args) {
 //        NumberFormatException
 //        String str = "abc";

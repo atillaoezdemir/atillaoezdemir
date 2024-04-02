@@ -8,6 +8,7 @@ import java.net.Socket;
 import java.util.Random;
 
 public class HangmanServer {
+    
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(12345);
@@ -24,6 +25,7 @@ public class HangmanServer {
             int wordLength = selectedWord.length();
 
             char[] guessedWord = new char[wordLength];
+            
             for (int i = 0; i < wordLength; i++)
                 guessedWord[i] = '_';
 
@@ -59,10 +61,13 @@ public class HangmanServer {
                             break;
                         }
                     }
+                    
                     objectOutputStream.writeObject(new HangmanState(guessedWord, false, correctGuess));
                     objectOutputStream.flush();
+                    
                 } else {
                     wrongGuesses++;
+                    
                     if (wrongGuesses == MAX_WRONG_GUESSES) {
                         objectOutputStream.writeObject(new HangmanState(selectedWord.toCharArray(), true, false));
                         objectOutputStream.flush();

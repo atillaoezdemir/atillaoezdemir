@@ -5,8 +5,10 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 public class OutputStreamDoubler {
+    
     FileOutputStream os1;
     FileOutputStream os2;
+    
     public OutputStreamDoubler(FileOutputStream os1, FileOutputStream os2) {
         this.os1 = os1;
         this.os2 = os2;
@@ -29,9 +31,11 @@ public class OutputStreamDoubler {
         }
 
         String msg = "";
-        if(ex1 != null)
+        
+        if (ex1 != null)
             msg += "Error closing first Stream" + ex1.getMessage() + "\n";
-        if(ex2 != null)
+        
+        if (ex2 != null)
             msg += "Error closing second stream" + ex2.getMessage() + "\n";
         throw new IOException(msg);
     }
@@ -50,6 +54,7 @@ public class OutputStreamDoubler {
             e.printStackTrace();
         }
     }
+    
     public static void main(String args[]) {
             FileOutputStream fos1 = null;
             FileOutputStream fos2 = null;
@@ -70,6 +75,7 @@ public class OutputStreamDoubler {
                         System.err.println("Error closing OutputStreamDoubler: " + e.getMessage());
                     }
                 }
+    
                 if (fos1 != null) {
                     try {
                         fos1.close();
@@ -77,6 +83,7 @@ public class OutputStreamDoubler {
                         System.err.println("Error closing first FileOutputStream: " + e.getMessage());
                     }
                 }
+                
                 if (fos2 != null) {
                     try {
                         fos2.close();

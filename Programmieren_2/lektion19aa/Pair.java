@@ -1,7 +1,8 @@
 package de.thws.lektion19aa;
 
-// Jenerik sınıf
+// Generic class
 public class Pair<T> {
+    
     private T left;
     private T right;
 
@@ -23,15 +24,15 @@ public class Pair<T> {
     }
 
     public static void main(String[] args) {
-        // Tip olarak String belirtilen bir Pair oluşturuyoruz
         Pair<String> stringPair = new Pair<>("sol", "sağ");
         System.out.println(stringPair);
 
-        // Tip olarak Integer belirtilmiş bir Pair oluşturuyoruz (String beklenen, ancak derleme hatası alacağız)
-        // Bu örnekte bilerek hata oluşturulmuştur.
+        // Create a pair with integer as the type (String is expected, but we will get a compilation error)
+        // In this example, an error was created intentionally.
         Pair<Integer> integerPair = new Pair<>(1, 2);
         System.out.println(integerPair);
-        // Aşağıdaki satır hata verecektir, çünkü beklenen tip String, ancak Integer verildi.
+        
+        // The following line will throw an error because the expected type is String, but Integer is given.
         // String leftValue = integerPair.getLeft();
     }
 }

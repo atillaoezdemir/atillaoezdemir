@@ -1,10 +1,13 @@
 package de.thws.lektion17;
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+
 public class Uebung2 {
+
         @Test
         public void testWriteWithNullArray() {
             try {
@@ -17,6 +20,7 @@ public class Uebung2 {
                 // expected
             }
         }
+        
         @Test
         public void testWriteWithNegativeOffset() {
             try {
@@ -29,6 +33,7 @@ public class Uebung2 {
                 // expected
             }
         }
+        
         @Test
         public void testWriteWithInvalidLength() {
             try {
@@ -41,4 +46,4 @@ public class Uebung2 {
                 // expected
             }
         }
-    }
+}

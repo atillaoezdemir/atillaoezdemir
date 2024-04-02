@@ -4,11 +4,13 @@ import java.util.HashMap;
 import java.util.List;
 
 public class MusikStueckSammlung {
+
     private final HashMap<String, MusikStueck> sammlung = new HashMap<>();
 
     public void musikStueckEinfügen(MusikStueck neu) {
         if (sammlung.containsKey(neu.titel))
             throw new IllegalArgumentException("Diese Titel ist schonn in der Sammlung!");
+    
         sammlung.put(neu.titel, neu);
     }
 

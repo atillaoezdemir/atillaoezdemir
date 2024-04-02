@@ -1,6 +1,7 @@
 package de.thws.lektion16.cyborg;
 
-public class Mensch implements Reaktionsverhalten{
+public class Mensch implements Reaktionsverhalten {
+    
     public Entscheidung entscheide(Gefahrensituation situation) {
         return switch (situation) {
             case GEFAHR_LINKS -> Entscheidung.RECHTS;
@@ -9,36 +10,37 @@ public class Mensch implements Reaktionsverhalten{
             default -> Entscheidung.UNENTSCHIEDEN;
         };
     }
+    
     public class Main {
+    
         public static void main(String[] args) {
-            int gun = 3;
+            int day = 3;
 
-            switch (gun) {
-                case 1: System.out.println("Pazartesi");
+            switch (day) {
+                case 1: System.out.println("Monday");
                     break;
                 case 2:
-                    System.out.println("Salı");
+                    System.out.println("Tuesday");
                     break;
                 case 3:
-                    System.out.println("Çarşamba");
+                    System.out.println("Wednesday");
                     break;
                 case 4:
-                    System.out.println("Perşembe");
+                    System.out.println("Thursday");
                     break;
                 case 5:
-                    System.out.println("Cuma");
+                    System.out.println("Friday");
                     break;
                 case 6:
-                    System.out.println("Cumartesi");
+                    System.out.println("Saturday");
                     break;
                 case 7:
-                    System.out.println("Pazar");
+                    System.out.println("Sunday");
                     break;
                 default:
-                    System.out.println("Geçersiz gün");
+                    System.out.println("Invalid day!");
                     break;
             }
         }
     }
-
 }

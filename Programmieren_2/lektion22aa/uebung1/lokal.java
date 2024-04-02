@@ -1,9 +1,12 @@
 package de.thws.lektion22aa.uebung1;
 
 public class lokal {
+
     public static void main(String[] args) {
+    
         class localClass extends Thread {
             String msg;
+        
             public localClass(String msg) {
                 this.msg = msg;
             }
@@ -19,6 +22,7 @@ public class lokal {
                 }
             }
         }
+        
         localClass yang = new localClass("Yang");
         localClass ying = new localClass("Ying");
 

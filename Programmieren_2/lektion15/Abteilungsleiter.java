@@ -7,6 +7,7 @@ public class Abteilungsleiter extends Angestellter {
         this.Gehaltsfaktor = 2.0;
         updateGehalt();
     }
+    
     public final void befoerdert(Angestellter a){
         a.Gehaltsfaktor *= 1.1;
         a.updateGehalt();

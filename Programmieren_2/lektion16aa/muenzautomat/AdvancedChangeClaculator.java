@@ -1,6 +1,7 @@
 package de.thws.lektion16aa.muenzautomat;
 
 public class AdvancedChangeClaculator implements ChangeCalculator{
+    
     public int[] getChange(int euros, int cent){
         SimpleChangeCalculator s = new SimpleChangeCalculator();
         int[] cents = s.getChange(euros, cent);

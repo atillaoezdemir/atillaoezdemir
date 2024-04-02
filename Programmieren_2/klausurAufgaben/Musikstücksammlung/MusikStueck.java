@@ -1,6 +1,7 @@
 package de.thws.klausurAufgaben.Musikstücksammlung;
 
 public class MusikStueck {
+    
     String titel;
     String interpret;
     int laenge;

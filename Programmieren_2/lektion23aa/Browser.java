@@ -5,6 +5,7 @@ import java.net.URL;
 import java.util.Optional;
 
 public class Browser {
+    
     public static void main(String[] args) {
         Browser browser = new Browser();
         Optional<URL> back = browser.back();

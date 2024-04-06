@@ -1,0 +1,278 @@
+cargo:rerun-if-env-changed=ZSTD_SYS_USE_PKG_CONFIG
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\debug.o" "-c" "zstd/lib/common\\debug.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+debug.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\entropy_common.o" "-c" "zstd/lib/common\\entropy_common.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\error_private.o" "-c" "zstd/lib/common\\error_private.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+entropy_common.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+error_private.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\fse_decompress.o" "-c" "zstd/lib/common\\fse_decompress.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\pool.o" "-c" "zstd/lib/common\\pool.c"
+cargo:warning=cl: Komut satçrç warning D9002: cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyorBilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+cargo:warning=
+
+fse_decompress.c
+pool.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\threading.o" "-c" "zstd/lib/common\\threading.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\zstd_common.o" "-c" "zstd/lib/common\\zstd_common.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\fse_compress.o" "-c" "zstd/lib/compress\\fse_compress.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+threading.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_common.c
+fse_compress.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\hist.o" "-c" "zstd/lib/compress\\hist.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\huf_compress.o" "-c" "zstd/lib/compress\\huf_compress.c"
+cargo:warning=cl: Komut satçrç warning D9002: cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyorBilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+cargo:warning=
+
+huf_compress.c
+hist.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_compress.o" "-c" "zstd/lib/compress\\zstd_compress.c"
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_compress_literals.o" "-c" "zstd/lib/compress\\zstd_compress_literals.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyorcl: Komut satçrç warning D9002: 
+
+cargo:warning=Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_compress.c
+zstd_compress_literals.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_compress_sequences.o" "-c" "zstd/lib/compress\\zstd_compress_sequences.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_compress_superblock.o" "-c" "zstd/lib/compress\\zstd_compress_superblock.c"
+zstd_compress_sequences.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_compress_superblock.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_double_fast.o" "-c" "zstd/lib/compress\\zstd_double_fast.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_double_fast.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_fast.o" "-c" "zstd/lib/compress\\zstd_fast.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_lazy.o" "-c" "zstd/lib/compress\\zstd_lazy.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_fast.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_lazy.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_ldm.o" "-c" "zstd/lib/compress\\zstd_ldm.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_ldm.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_opt.o" "-c" "zstd/lib/compress\\zstd_opt.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_opt.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstdmt_compress.o" "-c" "zstd/lib/compress\\zstdmt_compress.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/decompress\\huf_decompress.o" "-c" "zstd/lib/decompress\\huf_decompress.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/decompress\\zstd_ddict.o" "-c" "zstd/lib/decompress\\zstd_ddict.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/decompress\\zstd_decompress.o" "-c" "zstd/lib/decompress\\zstd_decompress.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+huf_decompress.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyorcl: Komut satçrç warning D9002: 
+
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyorBilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+cargo:warning=
+
+zstdmt_compress.c
+zstd_ddict.c
+zstd_decompress.c
+0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/decompress\\zstd_decompress_block.o" "-c" "zstd/lib/decompress\\zstd_decompress_block.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/dictBuilder\\cover.o" "-c" "zstd/lib/dictBuilder\\cover.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/dictBuilder\\divsufsort.o" "-c" "zstd/lib/dictBuilder\\divsufsort.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_decompress_block.c
+cargo:warning=cl: Komut satçrç warning D9002: cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyorBilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+cargo:warning=
+
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/dictBuilder\\fastcover.o" "-c" "zstd/lib/dictBuilder\\fastcover.c"
+divsufsort.c
+cover.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+fastcover.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/dictBuilder\\zdict.o" "-c" "zstd/lib/dictBuilder\\zdict.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zdict.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v01.o" "-c" "zstd/lib/legacy\\zstd_v01.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_v01.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v02.o" "-c" "zstd/lib/legacy\\zstd_v02.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v03.o" "-c" "zstd/lib/legacy\\zstd_v03.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_v02.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_v03.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v04.o" "-c" "zstd/lib/legacy\\zstd_v04.c"
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v05.o" "-c" "zstd/lib/legacy\\zstd_v05.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_v04.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_v05.c
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v06.o" "-c" "zstd/lib/legacy\\zstd_v06.c"
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoD:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v07.o" "-c" "zstd/lib/legacy\\zstd_v07.c"
+zstd_v06.c
+cargo:warning=cl: Komut satçrç warning D9002: Bilinmeyen '-fvisibility=hidden' seáeneßi yoksayçlçyor
+
+zstd_v07.c
+0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: "D:\\Yeni klas√∂r\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\lib.exe" "-out:D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\libzstd.a" "-nologo" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\debug.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\entropy_common.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\error_private.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\fse_decompress.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\pool.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\threading.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/common\\zstd_common.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\fse_compress.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\hist.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\huf_compress.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_compress.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_compress_literals.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_compress_sequences.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_compress_superblock.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_double_fast.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_fast.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_lazy.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_ldm.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstd_opt.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/compress\\zstdmt_compress.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/decompress\\huf_decompress.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/decompress\\zstd_ddict.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/decompress\\zstd_decompress.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/decompress\\zstd_decompress_block.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/dictBuilder\\cover.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/dictBuilder\\divsufsort.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/dictBuilder\\fastcover.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/dictBuilder\\zdict.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v01.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v02.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v03.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v04.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v05.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v06.o" "D:\\team-t\\StudyPulse\\backup-server\\target\\debug\\build\\zstd-sys-ee38137898ea5449\\out\\zstd/lib/legacy\\zstd_v07.o"
+exit code: 0
+cargo:rustc-link-lib=static=zstd
+cargo:rustc-link-search=native=D:\team-t\StudyPulse\backup-server\target\debug\build\zstd-sys-ee38137898ea5449\out
+cargo:root=D:\team-t\StudyPulse\backup-server\target\debug\build\zstd-sys-ee38137898ea5449\out
+cargo:include=C:\Users\Kevser Kƒ±lƒ±√ß\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zstd-sys-2.0.9+zstd.1.5.5\zstd/lib

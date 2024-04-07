@@ -13,5 +13,3 @@
     
     <h2>Current Status</h2>
     <p>This PWA was developed on a tight deadline, and while it's fully functional for regular use, some minor errors or limitations might arise in extreme situations.</p>
-</body>
-</html>

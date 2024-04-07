@@ -1,1 +1,0 @@
-Unique<Box<(dyn Fn() -> Pin<Box<(dyn futures::Future<Output = Result<Box<(dyn actix_web::data::DataFactory + 'static)>, ()>> + 'static)>> + 'static)>>

@@ -1,4 +1,4 @@
-# Watch and orginize the pulse of your study with the PWA: StudyPulse
+# Watch and organise the pulse of your study with the PWA: StudyPulse
 
 StudyPulse is a Progressive Web App (PWA) designed to empower university students to take control of their time management, organization, and planning needs.
 
@@ -26,4 +26,8 @@ To start using our PWA, follow these simple steps:
 ## Current Status
 
 This PWA was developed on a tight deadline, and while it's fully functional for regular use, some minor errors or limitations might arise in extreme situations.
+
+
+https://github.com/atillaoezdemir/atillaoezdemir/assets/164641796/4d9ff4fe-8e95-4cb8-b75e-95b3256fabc2
+
 

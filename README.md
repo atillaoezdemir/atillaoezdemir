@@ -4,7 +4,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=atillaoezdemir&label=Profile%20views&color=0e75b6&style=flat" alt="atillaoezdemir" /> </p>
 
-- 🔭 I’m currently working on **a Kinect Project**
+- 🔭 I’m currently working on **a project on recognizing body poses with AI support and playing the pipe instrument with them**
 
 - 🌱 I’m currently learning **Operating Systems, MatLab, C and Fundamentals of Distributed Systems**
 

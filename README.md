@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **Operating Systems, MatLab, C and Fundamentals of Distributed Systems**
 
-- 💬 Ask me about **Java, Fitness and Coffee**
+- 💬 Ask me about **AI, Fitness and Coffee**
 
 - 📫 How to reach me **atillaeozdemir132@gmail.com**
 

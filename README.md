@@ -35,7 +35,3 @@
 | Whispering to AI | ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛ |
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=atillaoezdemir&" alt="atillaoezdemir" />
-</p>

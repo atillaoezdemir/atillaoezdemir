@@ -5,9 +5,9 @@
   <img src="https://komarev.com/ghpvc/?username=atillaoezdemir&label=Profile%20views&color=0e75b6&style=flat" alt="atillaoezdemir" /> 
 </p>
 
-- 🔭 I'm currently working on **a project on recognizing body poses with AI support and playing the pipe organ with them**
-- 🌱 I'm currently learning **multi-agent systems, mobile development and fundamentals of AI**
-- 💬 Ask me about **AI, Fitness and Coffee**
+- 🔭 I'm currently working on two project: **a project on GEO and a project for personal fitness tracker**
+- 🌱 I'm currently learning **multi-agent systems, business software and fundamentals of AI**
+- 💬 Ask me about **Agents, Fitness and Coffee**
 - 📫 How to reach me **atillaeozdemir132@gmail.com**
 - ⚡ An unpopular opinion **The era of "coding with AI" won't last very long!**
 

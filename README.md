@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Atilla Özdemir</h1>
 <h3 align="center">(An enthusiastic IT guy)</h3>
 
-<p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=atillaoezdemir&label=Profile%20views&color=0e75b6&style=flat" alt="atillaoezdemir" /> 
-</p>
-
 - 🔭 I'm currently working on two project: **a project on GEO and a project for personal fitness tracker**
 - 🌱 I'm currently learning **multi-agent systems, business software and fundamentals of AI**
 - 💬 Ask me about **Agents, Fitness and Coffee**
@@ -35,3 +31,7 @@
 | Whispering to AI | ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛ |
 
 ---
+
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=atillaoezdemir&label=Profile%20views&color=0e75b6&style=flat" alt="atillaoezdemir" /> 
+</p>

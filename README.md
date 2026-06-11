@@ -1,11 +1,22 @@
 <h1 align="center">Hi 👋, I'm Atilla Özdemir</h1>
 <h3 align="center">(An enthusiastic IT guy)</h3>
 
-- 🔭 I'm currently working on two project: **a project on GEO and a project for personal fitness tracker**
-- 🌱 I'm currently learning **multi-agent systems, business software and fundamentals of AI**
-- 💬 Ask me about **Agents, Fitness and Coffee**
-- 📫 How to reach me **atillaeozdemir132@gmail.com**
-- ⚡ An unpopular opinion **The era of "coding with AI" won't last very long!**
+<table>
+  <tr>
+    <td valign="middle" width="70%">
+      <ul>
+        <li>🔭 I'm currently working on two projects: <strong>a project on GEO and a project for personal fitness tracker</strong></li>
+        <li>🌱 I'm currently learning <strong>multi-agent systems, business software and fundamentals of AI</strong></li>
+        <li>💬 Ask me about <strong>Agents, Fitness and Coffee</strong></li>
+        <li>📫 How to reach me <strong>atillaeozdemir132@gmail.com</strong></li>
+        <li>⚡ An unpopular opinion <strong>The era of "coding with AI" won't last very long!</strong></li>
+      </ul>
+    </td>
+    <td valign="middle" align="center" width="30%">
+      <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/c485e70f-60fb-48d2-9bb4-14df4cfcf775" />
+    </td>
+  </tr>
+</table>
 
 ---
 

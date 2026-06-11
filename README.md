@@ -16,8 +16,8 @@
 | **💻 Programming & Development** | |
 | Python | ⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜ |
 | Java | ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜ |
-| JavaScript | ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜ |
-| HTML5/CSS3 | ⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜ |
+| JavaScript | ⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜ |
+| HTML5/CSS3 | ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜ |
 | Git | ⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜ |
 | **🗄️ Database & Data Tools** | |
 | MySQL | ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜ |
